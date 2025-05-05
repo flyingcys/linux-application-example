@@ -1,10 +1,10 @@
 # linux application example
 
 包括：
-[x] alsa 录音
-[x] alsa 播放
-[x] framebuffer 显示
-[x] USB 手柄读取
+- [x] alsa 录音
+- [x] alsa 播放
+- [x] framebuffer 显示
+- [x] USB 手柄读取
 
 ## 依赖
 - ubuntu:
