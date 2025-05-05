@@ -4,6 +4,8 @@
 #include <alsa/asoundlib.h>
 
 #define PCM_DEVICE      "default"
+// #define PCM_DEVICE      "hw:1,0"
+
 #define SAMPLE_RATE     44100                   // 采样率（Hz）
 #define CHANNELS        2                          // 声道数
 #define FORMAT          SND_PCM_FORMAT_S16_LE        // 采样格式
@@ -67,11 +69,11 @@ int init_alsa(void)
         goto err;
     }
 
-    // 设置周期大小(每次传输的数据块大小)
+    // 设置周期大小
     period_size = BUFFER_FRAMES;
     snd_pcm_hw_params_set_period_size_near(pcm_handle, params, &period_size, 0);
 
-    // 设置缓冲区大小变量
+    // 设置缓冲区大小
     snd_pcm_uframes_t buffer_size = period_size * BUFFER_MULTIPLE;
     snd_pcm_hw_params_set_buffer_size_near(pcm_handle, params, (snd_pcm_uframes_t*)&buffer_size);
 

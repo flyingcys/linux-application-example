@@ -3,6 +3,8 @@
 #include <alsa/asoundlib.h>
 
 #define PCM_DEVICE      "default"
+// #define PCM_DEVICE      "hw:1,0"
+
 #define SAMPLE_RATE     44100                       // 采样率（Hz）
 #define CHANNELS        2                           // 声道数
 #define FORMAT          SND_PCM_FORMAT_S16_LE       // 采样格式
