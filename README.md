@@ -5,6 +5,8 @@
 - [x] alsa 播放
 - [x] framebuffer 显示
 - [x] USB 手柄读取
+- [x] minimp3 解码
+- [x] helix MP3 解码
 
 ## 依赖
 - ubuntu:
