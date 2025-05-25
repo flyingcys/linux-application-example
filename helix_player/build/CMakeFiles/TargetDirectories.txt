@@ -1,0 +1,7 @@
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/helix_player.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/edit_cache.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/rebuild_cache.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/list_install_components.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/install.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/install/local.dir
+/home/share/samba/linux-application-example/helix_player/build/CMakeFiles/install/strip.dir
